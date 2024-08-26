@@ -7,10 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Nothing yet!
+
+## [2.1.3] - 2024-08-23
+
 ### Fixed
 
 - Ensure `Transition` component state doesn't change when it becomes hidden ([#3372](https://github.com/tailwindlabs/headlessui/pull/3372))
 - Fix closing components using the `transition` prop, and after scrolling the page ([#3407](https://github.com/tailwindlabs/headlessui/pull/3407))
+- Ensure all client components are marked correctly to avoid a crash with React 19 and Turbopack ([#3429](https://github.com/tailwindlabs/headlessui/pull/3429))
 
 ## [2.1.2] - 2024-07-05
 
@@ -747,7 +752,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Everything!
 
-[unreleased]: https://github.com/tailwindlabs/headlessui/compare/@headlessui/react@v2.1.2...HEAD
+[unreleased]: https://github.com/tailwindlabs/headlessui/compare/@headlessui/react@v2.1.3...HEAD
+[2.1.3]: https://github.com/tailwindlabs/headlessui/compare/@headlessui/react@v2.1.2...@headlessui/react@v2.1.3
 [2.1.2]: https://github.com/tailwindlabs/headlessui/compare/@headlessui/react@v2.1.1...@headlessui/react@v2.1.2
 [2.1.1]: https://github.com/tailwindlabs/headlessui/compare/@headlessui/react@v2.1.0...@headlessui/react@v2.1.1
 [2.1.0]: https://github.com/tailwindlabs/headlessui/compare/@headlessui/react@v2.0.4...@headlessui/react@v2.1.0
